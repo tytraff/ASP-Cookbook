@@ -1,0 +1,15 @@
+<asp:Label ID="lblIName" runat="server" Text="Label"></asp:Label>
+<asp:TextBox ID="txtIName" runat="server" CssClass="form-control"></asp:TextBox>
+<asp:Label ID="lblQuan" runat="server" Text="Label"></asp:Label>
+<asp:TextBox ID="txtIQuan" runat="server" CssClass="form-control"></asp:TextBox>
+<asp:Label ID="lblUnit" runat="server" Text="Label"></asp:Label>
+<asp:DropDownList ID="unit" runat="server" CssClass="form-control">
+   <asp:ListItem Selected="True" Value ="#">Unit Of Measure..</asp:ListItem>
+   <asp:ListItem Value ="lb">Lbs</asp:ListItem>
+   <asp:ListItem Value ="oz">Ozs</asp:ListItem>
+   <asp:ListItem Value ="kg">Kgs</asp:ListItem>
+   <asp:ListItem Value ="tsp">Tsp</asp:ListItem>
+   <asp:ListItem Value ="tbsp">Tbsp</asp:ListItem>
+   <asp:ListItem Value ="pinch">Pinch</asp:ListItem>
+   <asp:ListItem Value ="cup">Cup</asp:ListItem>
+</asp:DropDownList>
